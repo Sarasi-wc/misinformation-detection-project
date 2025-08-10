@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+datasets
+jupyter
+notebook
+joblib
+boto3
+sagemaker
+pyspark
+awscli
