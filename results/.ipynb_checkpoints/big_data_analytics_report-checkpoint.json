@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-08-14T07:58:16.721452",
+  "project": "Real-time Misinformation Detection using Scalable Big Data Analytics",
+  "aws_configuration": {
+    "region": "us-east-1",
+    "s3_bucket": "misinformation-detection-bigdata-2025",
+    "services_used": [
+      "S3",
+      "Athena",
+      "EMR/Spark",
+      "SageMaker"
+    ]
+  },
+  "data_processing": {
+    "total_records": 1000,
+    "processing_methods": [
+      "Local Pandas",
+      "AWS Athena",
+      "Apache Spark",
+      "SageMaker"
+    ],
+    "best_throughput": "199.58 records/sec"
+  },
+  "performance_metrics": {
+    "local_processing_results_json": "results/model_results.json",
+    "spark_processing_sim": {
+      "processing_time_seconds": 5.01,
+      "records_processed": 1000,
+      "throughput_records_per_second": 199.58,
+      "simulated_cluster_nodes": 4,
+      "simulated_total_cores": 32,
+      "simulated_memory_per_node_gb": 16,
+      "estimated_scalability_factor": 10
+    },
+    "sagemaker_enhanced": "Simulated \u22485% improvement",
+    "athena_analytics": {
+      "total_records": 1000,
+      "label_distribution": {
+        "0": 605,
+        "1": 395
+      },
+      "avg_text_length_by_label": {
+        "0": 37.82809917355372,
+        "1": 37.845569620253166
+      }
+    },
+    "local_athena_results_csv": {
+      "rows_per_day": "results/local_athena_results/rows_per_day.csv",
+      "label_counts": "results/local_athena_results/label_counts.csv",
+      "avg_len_by_day": "results/local_athena_results/avg_len_by_day.csv"
+    }
+  },
+  "storage_catalog": {
+    "lake_root": "data/lake/clean/twitter",
+    "catalog_json": "data/local_glue_catalog.json"
+  },
+  "scalability_analysis": {
+    "current_dataset_size": "1000 records",
+    "estimated_max_capacity": "10M+ records with full AWS deployment",
+    "scaling_factor": "\u224810x improvement with distributed processing"
+  },
+  "cost_analysis": {
+    "local_development": "$0/hour",
+    "aws_ec2_single": "$0.10/hour",
+    "aws_emr_cluster": "$0.50/hour",
+    "aws_sagemaker": "$1.20/hour",
+    "recommendation": "EMR for batch processing, SageMaker for ML training"
+  },
+  "recommendations": [
+    "Use S3 for scalable data storage",
+    "Implement Athena for interactive analytics",
+    "Deploy Spark on EMR for batch processing",
+    "Use SageMaker for distributed ML training",
+    "Implement real-time streaming with Kinesis"
+  ]
+}

@@ -26,9 +26,15 @@
   "partitions": [
     {
       "partitionKeys": {
-        "dt": "2025-08-13"
+        "dt": "2025-08-08"
       },
-      "path": "/Users/sarasiw/projects/msc/misinformation-detection-project/data/lake/clean/twitter/dt=2025-08-13/data.parquet"
+      "path": "/Users/sarasiw/projects/msc/misinformation-detection-project/data/lake/clean/twitter/dt=2025-08-08/data.parquet"
+    },
+    {
+      "partitionKeys": {
+        "dt": "2025-08-09"
+      },
+      "path": "/Users/sarasiw/projects/msc/misinformation-detection-project/data/lake/clean/twitter/dt=2025-08-09/data.parquet"
     }
   ]
 }
