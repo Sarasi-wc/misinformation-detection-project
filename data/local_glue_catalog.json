@@ -1,0 +1,34 @@
+{
+  "database": "local_twitter",
+  "table": "twitter_clean",
+  "format": "parquet",
+  "location": "/Users/sarasiw/projects/msc/misinformation-detection-project/data/lake/clean/twitter",
+  "schema": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "text",
+      "type": "string"
+    },
+    {
+      "name": "label",
+      "type": "int"
+    }
+  ],
+  "partitionKeys": [
+    {
+      "name": "dt",
+      "type": "string"
+    }
+  ],
+  "partitions": [
+    {
+      "partitionKeys": {
+        "dt": "2025-08-13"
+      },
+      "path": "/Users/sarasiw/projects/msc/misinformation-detection-project/data/lake/clean/twitter/dt=2025-08-13/data.parquet"
+    }
+  ]
+}
