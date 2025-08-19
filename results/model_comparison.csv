@@ -1,0 +1,5 @@
+model,accuracy,precision,recall,f1_macro,roc_auc_macro,pr_auc_macro
+Linear SVM,0.9719,0.9645,0.971,0.9676,0.9926,0.987
+Random Forest (reduced),0.9652,0.9608,0.9583,0.9596,0.993,0.9889
+Logistic Regression (liblinear),0.9595,0.947,0.9616,0.9538,0.9893,0.981
+SGD (logistic loss),0.9341,0.9172,0.9353,0.9253,0.9822,0.9718

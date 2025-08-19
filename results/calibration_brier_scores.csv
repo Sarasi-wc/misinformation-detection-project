@@ -1,0 +1,4 @@
+Logistic Regression (liblinear),0.037802810662884184
+Linear SVM,0.03273083427731179
+SGD (logistic loss),0.07391663369413312
+Random Forest (reduced),0.03910493939917859
