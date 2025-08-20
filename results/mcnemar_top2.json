@@ -1,0 +1,15 @@
+{
+  "model_a":"Linear SVM",
+  "model_b":"Logistic Regression (liblinear)",
+  "n11":15049,
+  "n10":119,
+  "n01":90,
+  "n00":382,
+  "discordant_a_only":119,
+  "discordant_b_only":90,
+  "method":"statsmodels (exact)",
+  "p_value":0.0525092182,
+  "alpha":0.05,
+  "significant":false,
+  "direction":"Linear SVM"
+}

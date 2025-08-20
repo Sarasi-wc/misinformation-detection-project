@@ -1,0 +1,8 @@
+Top-2: Linear SVM vs Logistic Regression (liblinear)
+Table [[n11, n10],[n01, n00]] = [[15049, 119], [90, 382]]
+Discordant: Linear SVM_only_correct=119, Logistic Regression (liblinear)_only_correct=90
+Method: statsmodels (exact)
+McNemar two-sided p = 0.052509
+Alpha: 0.05
+Decision: no significant difference
+Direction: Linear SVM

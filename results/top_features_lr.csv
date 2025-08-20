@@ -1,0 +1,61 @@
+feature,weight,direction,rank_within_direction
+wednesday,-3.2551314737980053,negative (→ real),1.0
+california,-3.5828895473522953,negative (→ real),2.0
+foods,-3.6255780891946694,negative (→ real),3.0
+hiroshima,-3.715664995097076,negative (→ real),4.0
+reuters president,-3.7342504646821677,negative (→ real),5.0
+www,-3.735183786188714,negative (→ real),6.0
+nov,-3.7652973374852166,negative (→ real),7.0
+hurricane michael,-3.7892426807931074,negative (→ real),8.0
+president donald,-4.056101578102781,negative (→ real),9.0
+president donald trump,-4.056302042534565,negative (→ real),10.0
+hurricanes,-4.087715377095803,negative (→ real),11.0
+washington,-4.226615703295838,negative (→ real),12.0
+com,-4.496416115594208,negative (→ real),13.0
+dorian,-4.661956829583469,negative (→ real),14.0
+hurricane dorian,-4.710513063691817,negative (→ real),15.0
+floods,-5.487774790559217,negative (→ real),16.0
+flood,-7.896075676934887,negative (→ real),17.0
+said,-8.04491388198791,negative (→ real),18.0
+blizzard,-8.0469399104331,negative (→ real),19.0
+washington reuters,-8.556396156118115,negative (→ real),20.0
+cars,-8.576714039376464,negative (→ real),21.0
+ride,-8.88107338433238,negative (→ real),22.0
+wildfires,-8.969027994801138,negative (→ real),23.0
+tornado,-9.035630195985952,negative (→ real),24.0
+wildfire,-9.438671608507594,negative (→ real),25.0
+shelter,-11.239275287044439,negative (→ real),26.0
+car,-12.171551312691744,negative (→ real),27.0
+food,-13.205230485888933,negative (→ real),28.0
+hurricane,-15.150313764804014,negative (→ real),29.0
+reuters,-24.010918661679206,negative (→ real),30.0
+https,8.036290030573111,positive (→ misinfo),1.0
+image,6.705955538226226,positive (→ misinfo),2.0
+featured image,6.345920752043036,positive (→ misinfo),3.0
+featured,6.159734284396955,positive (→ misinfo),4.0
+president trump,4.686640372417991,positive (→ misinfo),5.0
+read,4.6479865408312575,positive (→ misinfo),6.0
+obama,4.229892941537542,positive (→ misinfo),7.0
+hillary,4.198743836317602,positive (→ misinfo),8.0
+gop,4.149699480558214,positive (→ misinfo),9.0
+america,4.128303168722375,positive (→ misinfo),10.0
+getty,3.9993256583150494,positive (→ misinfo),11.0
+getty images,3.8456591299102643,positive (→ misinfo),12.0
+coronavirus,3.536613218233252,positive (→ misinfo),13.0
+sen,3.5343165882229446,positive (→ misinfo),14.0
+president obama,3.303608054774923,positive (→ misinfo),15.0
+trump,3.302338592929292,positive (→ misinfo),16.0
+rep,3.2207553589895768,positive (→ misinfo),17.0
+video,3.218049514765799,positive (→ misinfo),18.0
+according,3.131796719073133,positive (→ misinfo),19.0
+mr,3.124063323412993,positive (→ misinfo),20.0
+images,3.062535075600608,positive (→ misinfo),21.0
+breitbart,3.0480992724928218,positive (→ misinfo),22.0
+fact,3.0228540011690472,positive (→ misinfo),23.0
+just,2.9297369153392085,positive (→ misinfo),24.0
+press,2.9243699671896604,positive (→ misinfo),25.0
+american,2.8410135605657856,positive (→ misinfo),26.0
+claim,2.785127515615434,positive (→ misinfo),27.0
+reports,2.6319284290505274,positive (→ misinfo),28.0
+fox,2.566718036130968,positive (→ misinfo),29.0
+entire,2.499351148491172,positive (→ misinfo),30.0

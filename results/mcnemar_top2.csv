@@ -1,0 +1,3 @@
+,Logistic Regression (liblinear) correct,Logistic Regression (liblinear) wrong
+Linear SVM correct,15049,119
+Linear SVM wrong,90,382
