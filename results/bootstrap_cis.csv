@@ -8,6 +8,3 @@ Linear SVM,pr_auc_macro,0.987,0.984,0.9898
 SGD (logistic loss),f1_macro,0.9251,0.9209,0.9294
 SGD (logistic loss),roc_auc_macro,0.9822,0.9803,0.9838
 SGD (logistic loss),pr_auc_macro,0.9718,0.9681,0.9754
-Random Forest (reduced),f1_macro,0.9594,0.9561,0.9627
-Random Forest (reduced),roc_auc_macro,0.993,0.992,0.994
-Random Forest (reduced),pr_auc_macro,0.9889,0.9866,0.9909

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-14T07:58:16.721452",
+  "timestamp": "2025-08-21T05:45:40.195897",
   "project": "Real-time Misinformation Detection using Scalable Big Data Analytics",
   "aws_configuration": {
     "region": "us-east-1",
@@ -9,7 +9,8 @@
       "Athena",
       "EMR/Spark",
       "SageMaker"
-    ]
+    ],
+    "simulation_mode": true
   },
   "data_processing": {
     "total_records": 1000,
@@ -19,14 +20,14 @@
       "Apache Spark",
       "SageMaker"
     ],
-    "best_throughput": "199.58 records/sec"
+    "best_throughput": "199.45 records/sec"
   },
   "performance_metrics": {
     "local_processing_results_json": "results/model_results.json",
     "spark_processing_sim": {
       "processing_time_seconds": 5.01,
       "records_processed": 1000,
-      "throughput_records_per_second": 199.58,
+      "throughput_records_per_second": 199.45,
       "simulated_cluster_nodes": 4,
       "simulated_total_cores": 32,
       "simulated_memory_per_node_gb": 16,
@@ -72,5 +73,15 @@
     "Deploy Spark on EMR for batch processing",
     "Use SageMaker for distributed ML training",
     "Implement real-time streaming with Kinesis"
+  ],
+  "generated_files": [
+    "results/model_results.json",
+    "results/sagemaker_enhanced_results.json",
+    "results/big_data_analytics_report.json",
+    "results/visualizations/label_distribution.png",
+    "results/visualizations/big_data_comparison.png",
+    "results/local_athena_results/rows_per_day.csv",
+    "results/local_athena_results/label_counts.csv",
+    "results/local_athena_results/avg_len_by_day.csv"
   ]
 }

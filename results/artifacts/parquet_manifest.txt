@@ -1,0 +1,8 @@
+Base: /Users/sarasiw/projects/msc/misinformation-detection-project/data/lake/clean/twitter
+Pattern: dt=*/data.parquet
+Found: 4
+
+/Users/sarasiw/projects/msc/misinformation-detection-project/data/lake/clean/twitter/dt=2025-08-08/data.parquet
+/Users/sarasiw/projects/msc/misinformation-detection-project/data/lake/clean/twitter/dt=2025-08-09/data.parquet
+/Users/sarasiw/projects/msc/misinformation-detection-project/data/lake/clean/twitter/dt=2025-08-13/data.parquet
+/Users/sarasiw/projects/msc/misinformation-detection-project/data/lake/clean/twitter/dt=2025-08-15/data.parquet

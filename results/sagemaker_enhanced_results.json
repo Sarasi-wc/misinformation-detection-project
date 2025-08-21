@@ -1,0 +1,32 @@
+{
+  "Logistic Regression (liblinear)_SageMaker": {
+    "sagemaker_accuracy": 0.99,
+    "sagemaker_precision": 0.99,
+    "sagemaker_recall": 0.99,
+    "sagemaker_f1_score": 0.99,
+    "sagemaker_training_time": 0.46,
+    "sagemaker_instance_type": "ml.m5.2xlarge",
+    "sagemaker_distributed": true,
+    "sagemaker_nodes": 4
+  },
+  "Linear SVM_SageMaker": {
+    "sagemaker_accuracy": 0.99,
+    "sagemaker_precision": 0.99,
+    "sagemaker_recall": 0.99,
+    "sagemaker_f1_score": 0.99,
+    "sagemaker_training_time": 0.38,
+    "sagemaker_instance_type": "ml.m5.2xlarge",
+    "sagemaker_distributed": true,
+    "sagemaker_nodes": 4
+  },
+  "SGD (logistic loss)_SageMaker": {
+    "sagemaker_accuracy": 0.99,
+    "sagemaker_precision": 0.99,
+    "sagemaker_recall": 0.99,
+    "sagemaker_f1_score": 0.99,
+    "sagemaker_training_time": 0.08,
+    "sagemaker_instance_type": "ml.m5.2xlarge",
+    "sagemaker_distributed": true,
+    "sagemaker_nodes": 4
+  }
+}
